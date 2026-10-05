@@ -3,7 +3,7 @@
     <div class="navbar-content">
       <div class="logo-price">
         <div class="logo-container" @click="toggleMenu">
-          <img src="/logo_lined.svg" alt="Logo">
+          <NuxtImg src="/logo_lined.svg" alt="Logo"/>
         </div>
       </div>
       <div class="nav-links" :class="{ active: isMenuOpen }">
